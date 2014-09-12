@@ -4,7 +4,7 @@
 		var data  = {
 			//NAME         PROT           IN    FWD  PROXY                   OPEN     IN PORT   FWD PORT PROXY PORT  OUT PORT  TEST
 			//             0               1      2      3                      4           5          6          7        8      9
- 			"Admin"     : [ "http://" ,  null,  null,  null,    "admin.aflitos.net",      null,      null,      null,    null, false ],
+            "Admin"     : [ "http://" ,  null,  null,  null,    "admin.aflitos.net",      null,      null,      null,    null, false ],
 			"Calendar"  : [ "http://" ,  null,  null,  null, "calendar.aflitos.net",      null,      null,      null,    null, true  ],
 			"Docs"      : [ "http://" ,  null,  null,  null,     "docs.aflitos.net",      null,      null,      null,    null, true  ],
 			"Drive"     : [ "http://" ,  null,  null,  null,    "drive.aflitos.net",      null,      null,      null,    null, true  ],
@@ -16,16 +16,16 @@
 			"Www"       : [ "http://" ,  null,  null,  null,      "www.aflitos.net",      null,      null,      null,    null, true  ],
 			"WWW2"      : [ "http://" ,  null,  null,  null,     "www2.aflitos.net",      null,      null,      null,    null, true  ],
 
-			"Ajenti"    : [ "http://" , inadd, fnadd, pradd,                   null,  ":8001/",  ":8001/",  ":8001/",    null, true  ],
-			"BtSync"    : [ "http://" , inadd, fnadd, pradd,                   null,  ":8888/",  ":8888/",  ":8888/",    null, true  ],
-			"Codebox"   : [ "http://" , inadd, fnadd, pradd,                   null,  ":8003/",  ":8003/",  ":8003/",    null, true  ],
-			"Docker UI" : [ "http://" , inadd, fnadd, pradd,                   null,  ":9000/",  ":9000/",  ":9000/",    null, true  ],
-			"Gitlab"    : [ "http://" , inadd, fnadd, pradd,                   null, ":10080/", ":10080/", ":10080/",    null, true  ],
-			"Gitlab SSH": [ "ssh://"  , inadd, fnadd, pradd,                   null, ":10022/", ":10022/", ":10022/",    null, false ],
-			"GateOne"   : [ "http://" , inadd, fnadd, pradd,                   null,  ":8002/",  ":8002/",  ":8002/",    null, true  ],
-			"Nginx"     : [ "http://" , inadd, fnadd, pradd,                   null,    ":80/",    ":80/",    ":80/",    null, true  ],
-			"OwnCloud"  : [ "http://" , inadd, fnadd, pradd,                   null,  ":7000/",  ":7000/",  ":7000/",    null, true  ],
-			//"Shipyard"  : [ "http://" , inadd, fnadd, pradd,                   null,  ":8000/",  ":8000/",  ":8000/",    null, true  ],
-			"Webmin"    : [ "https://", inadd, fnadd, pradd,                   null, ":10000/", ":10000/", ":10000/",    null, true  ],
-			"Wordpress" : [ "http://" , inadd, fnadd, pradd,                   null,  ":8080/",  ":8080/",  ":8080/",    null, true  ]
+			"Ajenti"    : [ "http://" , inadd, fnadd, pradd,    "ajenti.data.aflitos.net",  ":8001/",  ":8001/",  ":8001/",    null, true  ],
+			"BtSync"    : [ "http://" , inadd, fnadd, pradd,    "btsync.data.aflitos.net",  ":8888/",  ":8888/",  ":8888/",    null, true  ],
+			"Codebox"   : [ "http://" , inadd, fnadd, pradd,   "codebox.data.aflitos.net",  ":8003/",  ":8003/",  ":8003/",    null, true  ],
+			"Docker UI" : [ "http://" , inadd, fnadd, pradd,  "dockerui.data.aflitos.net",  ":9000/",  ":9000/",  ":9000/",    null, true  ],
+			"Gitlab"    : [ "http://" , inadd, fnadd, pradd,    "gitlab.data.aflitos.net", ":10080/", ":10080/", ":10080/",    null, true  ],
+			"Gitlab SSH": [ "ssh://"  , inadd, fnadd, pradd,                         null, ":10022/", ":10022/", ":10022/",    null, false ],
+			//"GateOne"   : [ "http://" , inadd, fnadd, pradd, "gateone.data.aflitos.net",  ":8002/",  ":8002/",  ":8002/",    null, true  ],
+			"Nginx"     : [ "http://" , inadd, fnadd, pradd,                         null,    ":80/",    ":80/",    ":80/",    null, false ],
+			"OwnCloud"  : [ "http://" , inadd, fnadd, pradd,  "owncloud.data.aflitos.net",  ":7000/",  ":7000/",  ":7000/",    null, true  ],
+			//"Shipyard"  : [ "http://" , inadd, fnadd, pradd,                       null,  ":8000/",  ":8000/",  ":8000/",    null, true  ],
+			"Webmin"    : [ "https://", inadd, fnadd, pradd,    "webmin.data.aflitos.net", ":10000/", ":10000/", ":10000/",    null, true  ],
+			"Wordpress" : [ "http://" , inadd, fnadd, pradd, "wordpress.data.aflitos.net",  ":8080/",  ":8088/",  ":8088/",    null, true  ]
 		};
