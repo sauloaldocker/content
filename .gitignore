@@ -2,4 +2,6 @@
 gitlab/
 owncloud
 shipyard/
-wordpress/
+#wordpress/
+wordpress/app/
+wordpress/sql/
